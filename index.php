@@ -201,24 +201,21 @@
       </div>
     </div>
   </div>
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <h2>Contact</h2>
-
-    <!-- Contact Form (2-tier: sends to save_message.php) -->
-    <form method="POST" action="save_message.php" class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-
-    <?php if (isset($_GET['sent'])): ?>
-      <p class="success-msg">Message sent successfully!</p>
-    <?php endif; ?>
-  </section>
-
-  <!-- External JS -->
+  
+  <div class="card">
+    <h1 style="padding:2%; text-align:center; color:white;">📞 CONTACT</span></h1>
+    <div class="contact" style="justify-content:space-between;">
+      <form method="POST" action="save_message.php" class="contact-form">
+        <label for="name">Name:</label><br>
+        <input type="text" placeholder="   Your Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="text" placeholder="   Your Email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" placeholder="  Your Message" required></textarea><br><br>
+        <button type="submit">Send</button> 
+      </form>
+    </div>
+  </div>
   <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -161,3 +161,24 @@ li{
   opacity: 1;
   transform: translateY(0);
 }
+.contact-form{
+  text-align: center;
+  width: 75% ;
+  background-color: rgb(8, 31, 62);
+  color: #dadada;
+  border-radius: 24px;
+  border: 1px solid #04545a;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 10% 0 10%;
+}
+input,textarea{
+    width: 50%;
+    height: 30px;
+    margin: 5px 0 5px 0;
+    border-radius: 15px;
+    background-color: #dadada ;
+}
+textarea{
+    height: 80px;
+}
