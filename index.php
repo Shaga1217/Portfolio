@@ -1,0 +1,221 @@
+<?php
+// later you can include DB: include 'config/db.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+
+<body>
+  <!-- HOME -->
+  <h1 class="welcome-heading">
+    <span class="welcome-badge">Welcome To My Page !<div style="font-size:80px; ">👋</div></span>
+  </h1>
+  <div class="card" style="height:100%;">
+    <div class="home">
+      <span style="padding-right:50px;">
+        <h1>I am <span class="highlight">Shaganjaly Sivanenthiran</span></h1>
+        <div class="professional">Web Developer | Designer | Student</div>
+        <p>
+          I’m a web developer and designer who helps people solve real problems through clean and modern design. 
+          I create beautiful, functional, and user-centered websites that focus on usability, simplicity, and 
+          meaningful digital experiences.
+        </p>
+        <br>
+        <a href="assets/files/CV.pdf" download>
+          <button type="button">Download CV</button>
+        </a>
+      </span>
+      <span class="profile">
+        <img src="assets/images/profile.jpeg" alt="My Photo">
+      </span>
+    </div>
+  </div>
+  <div class="card">
+    <h1 style="padding:2%; text-align:center; color:white;">🛠 MY SKILLS</h1>
+    <div class="skills">
+      <div class="skill-card">
+        <div class="tech">
+          <h2 style="color:#10e6f6">Technical</h2> 
+          <h3></h3>
+          <ul>
+            <li><strong style="color:white;">Frontend Development:</strong> HTML5, CSS, Javascript, Responsive web Design</li>
+            <li><strong style="color:white;">Backend Development:</strong> MySQL & PHP</li>
+            <li><strong style="color:white;">Programming:</strong> C, C++, Python(Basic), Javascript</li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="tools">
+          <h2 style="color:#10e6f6">Tools</h2>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Javascript</li>
+            <li>Linux / Ubuntu</li>
+            <li>MySQL Workbench</li>
+            <li>Apache / XAMPP / WAMP</li>            
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="tools">
+          <h2 style="color:#10e6f6">UI / UX & Design Skills</h2>
+          <ul>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>User-Centered Design</li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="tools">
+          <h2 style="color:#10e6f6">Soft Skills</h2>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Attention to Detail</li>
+            <li>Team Collaboration</li>
+            <li>Time Management</li>
+            <li>Communication</li>
+            <li>Willingness to Learn</li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="projects">
+      <h1 style="padding:2%; text-align:center; color:white;">📂 PROJECTS</span></h1>
+      <div class="project-card">
+        <h2 style="color:#10e6f6">🔹Team Project(active)</h2>
+        <p style="text-align:justify;">Pixora is a full-stack web application designed to streamline digital design service 
+          management. The platform supports service categorization, project request handling, 
+          file uploads, status tracking, and role-based dashboards. The backend follows a structured 
+          MVC approach with category-specific data handling, while the frontend focuses on clean UI, 
+          responsive layouts, and usability.
+          <ul>
+            <li>Service-based digital design platform</li>
+            <li>Customer & designer role-based dashboards</li>
+            <li>Project request submission with reference file uploads</li>
+            <li>Order status tracking and notifications</li>
+            <li>Organized service categories and subcategories</li>
+            <li>Clean, responsive user interface</li>
+          </ul>
+          Technologies Used: HTML, Css, Js, PHP, MySQL, Git
+        </p>
+      </div>
+      <div class="project-card">
+        <h2 style="color:#10e6f6">🔹Personal Project(active)</h2>
+        <p style="text-align:justify;">The portfolio website is built using a full-stack approach with a responsive frontend
+           and a PHP–MySQL backend. The system supports server-side form processing, database interaction, and modular code 
+           structure. The project demonstrates frontend development, backend integration, and basic web security practices.
+          <ul>
+            <li>Responsive personal portfolio interface</li>
+            <li>Dynamic project and skills content</li>
+            <li>Contact form with backend processing</li>
+            <li>Database integration for storing messages</li>
+            <li>Clean UI with structured backend logic</li>
+          </ul>
+          Technologies Used: HTML, Css, Js, PHP, MySQL, Git
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h1 style="padding:2%; text-align:center; color:white;">🎓 EDUCATIONS</span></h1>
+    <div class="education" style="justify-content:space-between;">
+      <div class="education-card">
+        <h2 style="color:#10e6f6">🔹Ordinary Level</h2>
+          <ul>
+            <li><strong style="color:white;">School: </strong>Chundikuli Girls’s College</li>
+            <li><strong style="color:white;">Index Number: </strong></li>
+            <li><strong style="color:white;">Year: </strong>2019</li>
+            <li><strong style="color:white;">Results: </strong>6A 3B</li>
+          </ul>
+      </div>
+      <div class="education-card">
+        <p style="text-align:justify;">
+        <h2 style="color:#10e6f6">🔹Advanced Level</h2>
+          <ul>
+            <li><strong style="color:white;">School: </strong>Chundikuli Girls’ College</li>
+            <li><strong style="color:white;">Index Number: </strong></li>
+            <li><strong style="color:white;">Year: </strong>2022</li>
+            <li><strong style="color:white;">Results: </strong>2A C</li>
+          </ul>
+      </div>
+      <div class="education-card">
+        <p style="text-align:justify;">
+        <h2 style="color:#10e6f6">🔹BSci. Computer Science</h2>
+          <ul>
+            <li><strong style="color:white;">University: </strong>University of Colombo School of Computing</li>
+            <li><strong style="color:white;">Year: </strong>from 2024 to present</li>
+            <li><strong style="color:white;">Current GPA: </strong>2.9</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h1 style="padding:2%; text-align:center; color:white;">🎓 CERTIFICATIONS</span></h1>
+    <div class="certifications" style="justify-content:space-between;">
+      <div class="certification-card">
+        <h2 style="color:#10e6f6">🔹Web Design</h2>
+          <ul>
+            <li><strong style="color:white;">Issuing Organization: </strong>University of Moratuwa</li>
+            <li><strong style="color:white;">Credential URL: </strong><a href="https://open.uom.lk/verify">link</a></li>
+            <li><strong style="color:white;">Credential ID: </strong>Ss8GasZP3b</li>
+          </ul>
+          <center><a href="assets/files/Web_Design_for_Beginners_E-Certificate.pdf">📜</a><br>certificate</center>
+      </div>
+      <div class="certification-card">
+        <h2 style="color:#10e6f6">🔹Css Basics</h2>
+          <ul>
+            <li><strong style="color:white;">Issuing Organization: </strong>HackerRank</li>
+            <li><strong style="color:white;">Credential URL: </strong><a href="https://www.hackerrank.com/certificates/8cc9d73a28b2">link</a></li>
+            <li><strong style="color:white;">Issue Date: </strong>Nov 2025</li>
+          </ul>
+          <center><a href="assets/files/css certificate.pdf">📜</a><br>certificate</center>
+      </div>
+      <div class="certification-card">
+        <h2 style="color:#10e6f6">🔹SQL Basics</h2>
+          <ul>
+            <li><strong style="color:white;">Issuing Organization: </strong>HackerRank</li>
+            <li><strong style="color:white;">Credential URL: </strong><a href="https://www.hackerrank.com/certificates/ad7090e2ea0c">link</a></li>
+            <li><strong style="color:white;">Issue Date: </strong>Nov 2025</li>
+          </ul>
+          <center><a href="assets/files/sql_basic certificate.pdf"></a>📜<br>certificate</center>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h1 style="padding:2%; text-align:center; color:white;">📞 CONTACT</span></h1>
+    <div class="contact" style="justify-content:space-between;">
+      <form method="POST" action="save_message.php" class="contact-form">
+        <label for="name">Name:</label><br>
+        <input type="text" placeholder="   Your Name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="text" placeholder="   Your Email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" placeholder="  Your Message" required></textarea><br><br>
+        <button type="submit">Send</button> 
+      </form>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
