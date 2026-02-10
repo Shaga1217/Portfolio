@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(
-    ".card"
-  );
+  const cards = document.querySelectorAll(".card");
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("show");
+          entry.target.classList.add("show");   // fade IN
+        } else {
+          entry.target.classList.remove("show"); // fade OUT
         }
       });
     },
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   cards.forEach((card) => {
-    card.classList.add("card-animate"); // initial state
+    card.classList.add("card-animate"); // initial hidden state
     observer.observe(card);
   });
 });
