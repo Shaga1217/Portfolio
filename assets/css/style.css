@@ -80,10 +80,18 @@ button:hover{
 .skill-card h2{
     text-align: center;
 }
-.skill-card,
+.skill-card{
+  width: calc(25% - 20px);  
+  background-color: rgb(8, 31, 62);
+  color: #dadada;
+  border-radius: 24px;
+  border: 1px solid #04545a;
+  padding: 20px;
+  box-sizing: border-box;
+}
 .education-card,
 .certification-card{
-  width: calc(25% - 20px);  
+  width: calc(34% - 20px);  
   background-color: rgb(8, 31, 62);
   color: #dadada;
   border-radius: 24px;
@@ -181,4 +189,7 @@ input,textarea{
 }
 textarea{
     height: 80px;
+}
+a{
+  color:#87c0f5;
 }
