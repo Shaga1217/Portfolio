@@ -1,3 +1,16 @@
+const navToggle = document.getElementById("navToggle");
+const navLinks = document.getElementById("navLinks");
+
+navToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+});
+
+// Close menu after clicking a link (mobile)
+document.querySelectorAll(".nav-link").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("show");
+  });
+});
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".card");
 
@@ -6,13 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");   // fade IN
-        } else {
-          entry.target.classList.remove("show"); // fade OUT
         }
       });
     },
     {
-      threshold: 0.2, // 20% visible triggers animation
+      threshold: 0.5, // 20% visible triggers animation
     }
   );
 

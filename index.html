@@ -3,83 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Shaganjaly</title>
 
   <!-- External CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   
 </head>
 
 <body>
-  <!-- HOME -->
-  <h1 class="welcome-heading">
-    <span class="welcome-badge">Welcome To My Page !<div style="font-size:80px; ">👋</div></span>
-  </h1>
-  <div class="card" style="height:100%;">
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-s">SHAGA</span>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about-me" class="nav-link">Home</a></li>
+      <li><a href="#skill" class="nav-link">Skills</a></li>
+      <li><a href="#pro" class="nav-link">Projects</a></li>
+      <li><a href="#edu" class="nav-link">Education</a></li>
+      <li><a href="#cert" class="nav-link">Certifications</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </nav>
+  <div class="card" style="height:100%;" id="about-me">
     <div class="home">
-      <span style="padding-right:50px;">
-        <h1>I am <span class="highlight">Shaganjaly Sivanenthiran</span></h1>
-        <div class="professional">Web Developer | Designer | Student</div>
+      <div style="padding-right:50px;">
+        <h1>Hi, I'm <div class="highlight">Shaganjaly Sivanenthiran</div></h1>
+        <div class="professional">Web Developer | Software Engineer | Designer | Student</div>
         <p style="text-align: justify;">
-          I’m a web developer and designer who helps people solve real problems through clean and modern design. 
-          I create beautiful, functional, and user-centered websites that focus on usability, simplicity, and 
-          meaningful digital experiences.
+          I aspire to become a skilled Software Engineer as well as a Web Developer and UI/UX Designer who can solve real-world problems through innovative digital solutions.
+          I aim to design clean, modern interfaces while also building reliable backend systems that power seamless user experiences.
+          My goal is to develop responsive and scalable applications that perform efficiently across platforms and devices.
+          I am motivated to continuously learn software engineering principles such as problem solving, system design, and clean coding practices.
+          I strive to strengthen my knowledge of programming, databases, and software architecture alongside my design skills.
+          I hope to transform creative ideas into complete, functional software products that deliver meaningful value to users and businesses.
+          Ultimately, I aspire to grow into a versatile professional capable of designing, developing, and engineering impactful technology solutions.
         </p>
         <br>
         <a href="assets/files/CV.pdf" download>
           <button type="button">Download CV</button>
         </a>
-      </span>
-      <span class="profile">
+      </div>
+      <div class="profile">
         <img src="assets/images/profile.jpeg" alt="My Photo">
-      </span>
+      </div>
     </div>
   </div>
-  <div class="card">
-    <h1 style="padding:2%; text-align:center; color:white;">🛠 MY SKILLS</h1>
+  <div class="card" id="skill">
+    <h1 style="text-align:left; color:#d4d4d4;">🤔 <span>What I Know </span></h1>
     <div class="skills">
-      <div class="skill-card">
-        <div class="tech">
-          <h2 style="color:#10e6f6">Technical</h2> 
-          <h3></h3>
-          <ul>
-            <li><strong style="color:white;">Frontend Development:</strong> HTML5, CSS, Javascript, Responsive web Design</li>
-            <li><strong style="color:white;">Backend Development:</strong> MySQL & PHP</li>
-            <li><strong style="color:white;">Programming:</strong> C, C++, Python(Basic), Javascript</li>
-          </ul>
-
-        </div>
+      <div class="skill-Card">
+          <h2 style="color:#ffffff">Web Development</h2> 
+            <div class="tag">HTML</div>
+            <div class="tag">CSS</div>  
+            <div class="tag">Javascript</div>
+            <div class="tag">PHP</div>
+            <div class="tag">MySQL</div>
       </div>
-      <div class="skill-card">
-        <div class="tools">
-          <h2 style="color:#10e6f6">Tools</h2>
-          <ul>
-            <li>Git & GitHub</li>
-            <li>VS Code</li>
-            <li>Javascript</li>
-            <li>Linux / Ubuntu</li>
-            <li>MySQL Workbench</li>
-            <li>Apache / XAMPP / WAMP</li>            
-            <li>Figma</li>
-            <li>Canva</li>
-          </ul>
-          
-        </div>
+      <div class="skill-Card">
+          <h2 style="color:#ffffff">Programming</h2> 
+            <div class="tag">C</div>
+            <div class="tag">C++</div>
+            <div class="tag">Python(Basic)</div>
       </div>
-      <div class="skill-card">
-        <div class="tools">
-          <h2 style="color:#10e6f6">UI / UX & Design Skills</h2>
-          <ul>
-            <li>Wireframing</li>
-            <li>Prototyping</li>
-            <li>User-Centered Design</li>
-          </ul>
-          
-        </div>
+      <div class="skill-Card">
+          <h2 style="color:#ffffff">Tools</h2>
+          <div class="tag">Git & GitHub</div>
+          <div class="tag">VS Code</div>
+          <div class="tag">Linux / Ubuntu</div>
+          <div class="tag">MySQL Workbench</div>
+          <div class="tag">Apache / XAMPP / WAMP</div>            
+          <div class="tag">Figma</div>
+          <div class="tag">Canva</div>
       </div>
-      <div class="skill-card">
-        <div class="tools">
-          <h2 style="color:#10e6f6">Soft Skills</h2>
+      <div class="skill-Card">
+          <h2 style="color:#ffffff">UI / UX & Design Skills</h2>
+          <div class="tag">Wireframing</div>
+          <div class="tag">Prototyping</div>
+          <div class="tag">User-Centered Design</div> 
+      </div>
+      <div class="skill-Card">
+          <h2 style="color:#ffffff">Soft Skills</h2>
           <ul>
             <li>Problem Solving</li>
             <li>Attention to Detail</li>
@@ -88,16 +95,50 @@
             <li>Communication</li>
             <li>Willingness to Learn</li>
           </ul>
-          
+      </div>
+    </div>
+  </div>
+  <div class="card" id="leader">
+    <h1 style="padding:2%; text-align:left; color:#d4d4d4;">🎯 <span>Leadership & Activities</span></h1>
+    <div class="leader-Card">
+      <ul>
+        <li><strong>School Prefect</strong> — Maintained discipline and supported school administration</li>
+        <li><strong>Tamil Union Member</strong> — Participated in cultural programs and event organization</li>
+        <li><strong>House Athletic Captain</strong> — Led house members and coordinated sports participation</li>
+      </ul>
+  </div>
+  </div>
+  <div class="card" id="lang">
+    <div class="language-header">
+      <div class="language-icon">🌐</div>
+      <h1 style="padding:2%; text-align:left; color:#d4d4d4;"><span> Languages</span></h1>
+    </div>
+    <div class="language-card">
+      <div class="language-item">
+        <div class="language-label">
+          <div>Tamil</div>
+          <div>100%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width:100%"></div>
+        </div>
+      </div>
+      <div class="language-item">
+        <div class="language-label">
+          <div>English</div>
+          <div>85%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" style="width:90%"></div>
         </div>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="projects">
-      <h1 style="padding:2%; text-align:center; color:white;">📂 PROJECTS</span></h1>
+  <div class="card" id="pro">
+    <h1 style="padding:2%; text-align:left; color:#d4d4d4;">📂<span> What I’ve Been Building</span></h1>
+    <div class="skills">
       <div class="project-card">
-        <h2 style="color:#10e6f6">🔹Team Project(active)</h2>
+        <h2 style="color:#ffffff">💻 Team Project (Active)</h2>
         <p style="text-align:justify;">Pixora is a full-stack web application designed to streamline digital design service 
           management. The platform supports service categorization, project request handling, 
           file uploads, status tracking, and role-based dashboards. The backend follows a structured 
@@ -111,11 +152,41 @@
             <li>Organized service categories and subcategories</li>
             <li>Clean, responsive user interface</li>
           </ul>
-          Technologies Used: HTML, Css, Js, PHP, MySQL, Git
+          <div class="tag">HTML</div>
+          <div class="tag">css</div>
+          <div class="tag">JS</div>
+          <div class="tag">PHP</div>
+          <div class="tag">MySQL</div>
+          <div class="tag">Git</div>
         </p>
       </div>
       <div class="project-card">
-        <h2 style="color:#10e6f6">🔹Personal Project(active)</h2>
+        <h2 style="color:#ffffff">🎲 Ludo Game Simulation (Academic Project)</h2>
+
+        <p style="text-align:justify;">
+          A console-based Ludo game simulation developed in C using a modular architecture. 
+          The system implements core gameplay mechanics including dice rolling, token movement, 
+          turn management, and round-based player status tracking. The project emphasizes structured 
+          programming, data abstraction using custom types, and separation of concerns across multiple 
+          source files.
+        </p>
+
+        <ul>
+          <li>Console-based multiplayer Ludo gameplay</li>
+          <li>Dice roll and token movement logic implementation</li>
+          <li>Round-wise player status summary display</li>
+          <li>Modular code structure (types, logic, main)</li>
+          <li>Game state management and rule validation</li>
+          <li>Compilation and execution using Makefile on Linux</li>
+        </ul>
+        <div class="tag">C</div>
+        <div class="tag">Data Structures</div>
+        <div class="tag">Game Logic</div>
+        <div class="tag">Linux</div>
+        <div class="tag">Makefile</div>
+      </div>
+      <div class="project-card">
+        <h2 style="color:#ffffff">👤 Personal Project</h2>
         <p style="text-align:justify;">The portfolio website is built using a full-stack approach with a responsive frontend
            and a PHP–MySQL backend. The system supports server-side form processing, database interaction, and modular code 
            structure. The project demonstrates frontend development, backend integration, and basic web security practices.
@@ -126,80 +197,153 @@
             <li>Database integration for storing messages</li>
             <li>Clean UI with structured backend logic</li>
           </ul>
-          Technologies Used: HTML, Css, Js, Git
+          <div class="tag">HTML</div>
+          <div class="tag">css</div>
+          <div class="tag">JS</div>
+          <div class="tag">Git</div>
+        </p>
+      </div>
+      <div class="project-card">
+        <h2 style="color:#ffffff">🚚 SwiftTrack Middleware Integration Platform (Academic Team Project)</h2>
+        <p style="text-align:justify;">
+          SwiftTrack is an event-driven middleware platform that manages order processing across multiple systems
+          via an API Gateway, RabbitMQ, and worker orchestration (CMS → ROS → WMS) with real-time WebSocket updates.
+          <ul>
+            <li>API Gateway + authentication</li>
+            <li>RabbitMQ event-driven workflow</li>
+            <li>Worker orchestration (CMS → ROS → WMS)</li>
+            <li>SOAP / REST / TCP integration</li>
+            <li>Retries + DLQ failure handling</li>
+            <li>Real-time status via WebSocket</li>
+            <li>Docker Compose microservices</li>
+          </ul>
+          <div class="tag">Middleware</div>
+          <div class="tag">FastAPI</div>
+          <div class="tag">RabbitMQ</div>
+          <div class="tag">PostgreSQL</div>
+          <div class="tag">Docker</div>
+          <div class="tag">WebSocket</div>
+          <div class="tag">Event-Driven Architecture</div>
         </p>
       </div>
     </div>
   </div>
 
-  <div class="card">
-    <h1 style="padding:2%; text-align:center; color:white;">🎓 EDUCATIONS</span></h1>
-    <div class="education" style="justify-content:space-between;">
-      <div class="education-card">
-        <h2 style="color:#10e6f6">🔹Ordinary Level</h2>
+  <div class="card" id="edu">
+    <h1 style="padding:2%; text-align:left; color:#d4d4d4;">🌱<span> FOUNDATIONS OF MY CAREER</span></h1>
+    <div class="skills">
+      <div class="skill-Card">
+        <h2 style="color:#ffffff">🔹Ordinary Level</h2>
           <ul>
-            <li><strong style="color:white;">School: </strong>Chundikuli Girls’s College</li>
-            <li><strong style="color:white;">Index Number: </strong>96926597</li>
-            <li><strong style="color:white;">Year: </strong>2019</li>
-            <li><strong style="color:white;">Results: </strong>6A 3B</li>
+            <li><strong style="color:#d4d4d4;">School: </strong>Chundikuli Girls’s College</li>
+            <li><strong style="color:#d4d4d4;">Year: </strong>2019</li>
+            <li><strong style="color:#d4d4d4;">Results: </strong>6A 3B</li>
           </ul>
       </div>
-      <div class="education-card">
-        <h2 style="color:#10e6f6">🔹Advanced Level (Physical Science)</h2>
+      <div class="skill-Card">
+        <h2 style="color:#ffffff">🔹Advanced Level (Physical Science)</h2>
           <ul>
-            <li><strong style="color:white;">School: </strong>Chundikuli Girls’ College</li>
-            <li><strong style="color:white;">Index Number: </strong>5227151</li>
-            <li><strong style="color:white;">Year: </strong>2022</li>
-            <li><strong style="color:white;">Results: </strong>2A C</li>
+            <li><strong style="color:#d4d4d4;">School: </strong>Chundikuli Girls’ College</li>
+            <li><strong style="color:#d4d4d4;">Year: </strong>2022</li>
+            <li><strong style="color:#d4d4d4;">Results: </strong>2A C</li>
           </ul>
       </div>
-      <div class="education-card">
-        <h2 style="color:#10e6f6">🔹BSci. Computer Science</h2>
+      <div class="skill-Card">
+        <h2 style="color:#ffffff">🔹BSci. Computer Science</h2>
           <ul>
-            <li><strong style="color:white;">University: </strong>University of Colombo School of Computing</li>
-            <li><strong style="color:white;">Year: </strong>from 2024 to present</li>
-            <li><strong style="color:white;">Current GPA: </strong>2.9</li>
+            <li><strong style="color:#d4d4d4;">University: </strong>University of Colombo School of Computing</li>
+            <li><strong style="color:#d4d4d4;">Year: </strong>from 2024 to present</li>
+            <li><strong style="color:#d4d4d4;">Current GPA: </strong>2.9</li>
           </ul>
       </div>
     </div>
   </div>
 
-  <div class="card">
-    <h1 style="padding:2%; text-align:center; color:white;">🎓 CERTIFICATIONS</span></h1>
+  <div class="card" id="cert">
+    <h1 style="padding:2%; text-align:left; color:#d4d4d4;"><i class="fa-solid fa-award"></i><span> CERTIFICATIONS</span></h1>
     <div class="certifications" style="justify-content:space-between;">
       <div class="education-card">
-        <h2 style="color:#10e6f6">🔹Web Design</h2>
-          <ul>
-            <li><strong style="color:white;">Issuing Organization: </strong>University of Moratuwa</li>
-            <li><strong style="color:white;">Credential URL: </strong><a href="https://open.uom.lk/verify">link</a></li>
-            <li><strong style="color:white;">Credential ID: </strong>Ss8GasZP3b</li>
-          </ul>
-          <center><a href="assets/files/Web_Design_for_Beginners_E-Certificate.pdf">📜</a><br>certificate</center>
+        <h2 style="color:#ffffff">🔹Web Design</h2>
+          <a href="assets/files/Web_Design_for_Beginners_E-Certificate.pdf">
+            <img src="assets/images/webDesign.png" alt="Web Design Certificate">
+          </a>
+          <br>
       </div>
       <div class="education-card">
-        <h2 style="color:#10e6f6">🔹Css Basics</h2>
-          <ul>
-            <li><strong style="color:white;">Issuing Organization: </strong>HackerRank</li>
-            <li><strong style="color:white;">Credential URL: </strong><a href="https://www.hackerrank.com/certificates/8cc9d73a28b2">link</a></li>
-            <li><strong style="color:white;">Issue Date: </strong>Nov 2025</li>
-          </ul>
-          <center><a href="assets/files/css certificate.pdf">📜</a><br>certificate</center>
+        <h2 style="color:#ffffff">🔹Css Basics</h2>
+        <a href="assets/files/css certificate.pdf">
+          <img src="assets/images/css.png" alt="CSS Basics Certificate">
+        </a>
       </div>
       <div class="education-card">
-        <h2 style="color:#10e6f6">🔹SQL Basics</h2>
-          <ul>
-            <li><strong style="color:white;">Issuing Organization: </strong>HackerRank</li>
-            <li><strong style="color:white;">Credential URL: </strong><a href="https://www.hackerrank.com/certificates/ad7090e2ea0c">link</a></li>
-            <li><strong style="color:white;">Issue Date: </strong>Nov 2025</li>
-          </ul>
-          <center><a href="assets/files/sql_basic certificate.pdf">📜</a><br>certificate</center>
+        <h2 style="color:#ffffff">🔹SQL Basics</h2>
+        <a href="assets/files/sql_basic certificate.pdf">
+          <img src="assets/images/sql.png" alt="SQL Basics Certificate">
+        </a>
       </div>
     </div>
   </div>
-  
-  <div class="card">
-    <h1 style="padding:2%; text-align:center; color:white;">📞 CONTACT</span></h1>
-    <div class="contact" style="justify-content:space-between;">
+  <div class="contact-section" id="contact">
+    <h1 class="contact-title">🔗<span> Get In Touch </span></h1>
+
+    <div class="contact-card">
+      <!-- Left -->
+      <div class="contact-left">
+        <h2>Let's Connect</h2>
+        <p>
+          I'm always interested in hearing about new projects and opportunities.
+          Whether you have a question or just want to say hi, feel free to reach out!
+        </p>
+
+        <div class="contact-info">
+          <div class="info-row">
+            <div class="info-icon">✉️</div>
+            <div class="info-text" id="emailText">shagana1217@gmail.com</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon">📞</div>
+            <div class="info-text">+94 756631828</div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon">📍</div>
+            <div class="info-text">Jaffna, Sri Lanka</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div class="contact-right">
+        <h2>Social Media Links</h2>
+
+        <a class="social-box" href="https://github.com/Shaga1217" target="_blank">
+          <div class="social-icon"><i class="fa-brands fa-github"></i></div>
+          <div>
+            <div class="social-title">GitHub</div>
+            <div class="social-sub">@Shaga1217</div>
+          </div>
+        </a>
+
+        <a class="social-box" href="https://www.linkedin.com/in/shaganjaly-sivanenthiran-00520a364/" target="_blank">
+          <div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div>
+            <div class="social-title">LinkedIn</div>
+            <div class="social-sub">Shaganjaly Sivanenthiran</div>
+          </div>
+        </a>
+        <a class="social-box" href="https://www.instagram.com/s.shaga08/" target="_blank">
+          <div class="social-icon"><i class="fa-brands fa-instagram"></i></div>
+          <div>
+            
+            <div class="social-title">Instragram</div>
+            <div class="social-sub">_Shaga_</div>
+          </div>
+        </a>
+        <div class="copy-msg" id="copyMsg"></div>
+      </div>
+    </div>
+    <div style="justify-content:space-between;">
       <form method="POST" action="https://formspree.io/f/xreabvba" class="contact-form">
         <label for="name">Name:</label><br>
         <input type="text" name="name" placeholder="Your Name" required><br>
@@ -211,6 +355,26 @@
       </form>
     </div>
   </div>
-  <script src="assets/js/script.js"></script>
+</div>
+<footer class="site-footer">
+  <div class="footer-content">
+
+    <div class="footer-tag">
+      @ 2026 Shaganjaly Sivanenthiran.
+    </div>
+
+    <div class="footer-social">
+      <a href="https://github.com/Shaga1217" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/shaganjaly-sivanenthiran-00520a364/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+
+  </div>
+</footer>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
