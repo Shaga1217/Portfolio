@@ -19,11 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");   // fade IN
+        } else {
+          entry.target.classList.remove("show"); // fade OUT
         }
       });
     },
     {
-      threshold: 0.5, // 20% visible triggers animation
+      threshold: 0.08, 
     }
   );
 

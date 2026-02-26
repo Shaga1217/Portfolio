@@ -24,6 +24,7 @@ input,textarea{
     margin: 5px 0 5px 0;
     border-radius: 15px;
     background-color: #888376 ;
+    border: 1px solid #04545a;
 }
 textarea{
     height: 80px;
@@ -93,7 +94,7 @@ textarea{
 }
 .card-animate {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
 }
 
