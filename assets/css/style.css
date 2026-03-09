@@ -299,6 +299,7 @@ button:hover{
   border: 1px solid #04545a;
   padding: 20px;
   box-sizing: border-box;
+  margin-bottom: 10px;
 } 
 .education-card img{
   width: 100%;
